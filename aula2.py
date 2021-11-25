@@ -1,4 +1,6 @@
 
+# INÍCIO DA AULA 2
+
 # não é informado tipo da variável
 a = 10
 b = 5
@@ -73,3 +75,5 @@ print(type(e))
 print(e)
 print(type(f))
 print(f)
+
+# FIM DA AULA 2
