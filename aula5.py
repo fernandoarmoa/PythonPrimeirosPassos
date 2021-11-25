@@ -124,6 +124,4 @@ lista_numerica[0] = 100
 print(lista_numerica)
 
 
-
-
 # FIM DA AULA 5
