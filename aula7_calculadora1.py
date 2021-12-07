@@ -16,11 +16,12 @@ class Calculadora:
     def multiplicacao(self):
         return self.valor_a * self.valor_b
 
-calc = Calculadora(10, 2)
-print(calc.valor_a)
-print(calc.valor_b)
+if __name__ == '__main__':
+    calc = Calculadora(10, 2)
+    print(calc.valor_a)
+    print(calc.valor_b)
 
-print(calc.soma())
-print(calc.subtracao())
-print(calc.divisao())
-print(calc.multiplicacao())
+    print(calc.soma())
+    print(calc.subtracao())
+    print(calc.divisao())
+    print(calc.multiplicacao())

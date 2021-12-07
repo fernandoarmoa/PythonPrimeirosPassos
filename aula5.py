@@ -49,6 +49,10 @@ print('------------------')
 print('Tamanho: {} - (utilizando o método len)'.format(len(lista)))
 print('------------------')
 
+print('Tamanho: {} - (utilizando o método len)'.format(len(str(lista[0]))))
+print('------------------')
+
+
 # Os métodos min e max tb funcionam com strings, no caso ele retorna o valor de acordo com a ordem alfabetíca
 print('Primeiro na ordem alfabética: {} - (utilizando o método min)'.format(min(lista_animal)))
 print('------------------')

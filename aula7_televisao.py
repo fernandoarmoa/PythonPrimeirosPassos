@@ -1,7 +1,6 @@
-from typing import OrderedDict
-
 
 class Televisao:
+
     def __init__(self):
         self.ligada = False
         self.canal = 5
@@ -20,15 +19,16 @@ class Televisao:
         if self.ligada:
             self.canal -= 1
 
-tv = Televisao()
-print('A TV está ligada? {}'.format(tv.ligada))
-tv.power()
-print('A TV está ligada? {}'.format(tv.ligada))
-tv.power()
-print('A TV está ligada? {}'.format(tv.ligada))
-tv.power()
-tv.aumentaCanal()
-tv.aumentaCanal()
-print('Cana: {}'.format(tv.canal))
-tv.diminuiCanal()
-print('Cana: {}'.format(tv.canal))
+
+#tv = Televisao()
+#print('A TV está ligada? {}'.format(tv.ligada))
+#tv.power()
+#print('A TV está ligada? {}'.format(tv.ligada))
+#tv.power()
+#print('A TV está ligada? {}'.format(tv.ligada))
+#tv.power()
+#tv.aumentaCanal()
+#tv.aumentaCanal()
+#print('Cana: {}'.format(tv.canal))
+#tv.diminuiCanal()
+#print('Cana: {}'.format(tv.canal))
